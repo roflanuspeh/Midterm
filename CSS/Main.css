@@ -1,0 +1,279 @@
+h3{
+	font-size:25px;
+	text-decoration:underline;
+}
+
+.col{
+	color:ffc000;
+}
+
+.Imag{
+	width:150px;
+	margin-left:50px;
+	margin-top:-3px;
+
+}
+
+img {
+    margin-left: auto;
+	margin-right: auto;
+    display: block ;
+	width: auto;
+
+}
+
+
+
+a{
+	color:#B8860B;
+	text-decoration:none;
+}
+
+
+* {
+	padding:0;
+	margin:0;
+}
+
+body{
+	background:url(../Img/BG.jpg) no-repeat fixed;
+	font-family:AugustaModern;
+	background-size: 100%;
+	
+}
+
+
+.body {
+    font-size: 28px	;
+    padding: 0 10px;
+}
+
+
+
+.header{
+	width:100%;
+	height:60px;
+	padding:10px;		
+	color: #fff;
+	background-color: #122133;
+}
+
+
+	
+.header__section{
+	margin-top:-55px;
+	display:flex;
+	align-items:center;
+	background-color: #122133;
+	justify-content:space-between;	
+}
+
+
+
+.header__item{
+	padding:10px 15px;
+	font-size:30px;
+	margin-left:5px;
+	
+}
+
+.header__item:hover{
+	background-color:yellow;
+	border-radius:4px
+}
+.headerlogo{
+	font-size:50px;
+	font-weight: bold;
+	color: Indigo;
+}
+.headButton{
+	cursor:pointer;
+}
+
+
+.telo{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+}
+
+.bl1 {
+	position:relative;
+	padding:10px;
+	display:flex;
+	width:100%;
+    background: #122133; 
+    text-align: center;
+	font-size: 80px;
+	justify-content:center;
+	border-top: 2px dashed ;
+	border-bottom: 2px dashed ;
+	color: #B8860B
+  }
+  
+ .block2 {
+    width: 600px;
+    height: 600px;
+	border-radius:10%;
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    background-color: #122133;
+    text-align: center;
+    text-decoration: none;
+
+  }
+  
+.footer{
+	height: 280px;
+	border-top: 2px dashed ;
+	position: relative;	
+	padding:10px;		
+	color: #B8860B;
+	background-color: #122133;
+	left: 0; bottom: 0;
+	width:100%;
+}
+
+.footer__section{
+	padding:-50px;
+	display:flex;
+	background-color: #122133;
+	justify-content:space-between;
+}
+  
+  
+.footer_item{
+	margin:5px;
+	padding:20px;
+	font-size:30px;
+	color: #B8860B;
+	text-align:center;
+	
+}
+
+
+@media only screen and (max-width: 800px) {
+.header{
+	display:flex;
+	justify-content:space-between;
+	padding:10px;		
+	color: #fff;
+	flex-flow: row wrap;
+	background-color:  #122133;
+}
+	
+.header__section{
+	display:flex;
+	align-items:center;
+	background-color:  #122133;
+
+	flex-flow: row wrap;	
+}
+
+.header__item{
+	padding:10px 15px;
+	font-size:30px;
+	margin-left:5px;
+}
+
+.header__item:hover{
+	background-color:yellow;
+	border-radius:4px
+}
+.headerlogo{
+	font-size:50px;
+	font-weight: bold;
+	color: Indigo;
+}
+.headButton{
+	cursor:pointer;
+}
+
+.telo{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-evenly;
+	align-content: space-evenly;
+	padding: 0;
+	margin: 0;
+}
+
+.bl1 {
+	display:flex;
+	width:100%;
+    background: #122133; 
+    text-align: center;
+	font-size: 80px;
+	justify-content:center;
+	border: 2px solid ;
+  }
+  
+ .block2 {
+    display: flex;
+    flex-flow: row nowrap;
+
+    width: 350px;
+    height: 200px;
+
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    background-color: #122133;
+
+    padding: 0;
+
+    justify-content: space-between;
+    align-content: space-between;
+	text-align:center;
+
+  }
+img {
+    height: 200px;
+    width: 140px;
+    padding: 0;
+    margin: 0;
+    }
+.body {
+        font-size: 9px;
+        padding: 0;
+        margin: 0;
+    }
+
+.footer{
+	position: fixed;
+	padding:10px;		
+	color: #fff;
+	background-color: #122133;
+	height:100px;
+	left: 0; bottom: 0;
+	width:100%;
+}
+
+.footer__section{
+	display:flex;
+	align-items:center;
+	background-color: #122133;
+	justify-content:space-between;	
+}
+
+.footer_item{
+	margin:5px;
+	padding:20px;
+	font-size:30px;
+	color: #B8860B;
+	text-align:center;
+	
+}
+
+body{
+	background:url(../Img/BG.jpg) no-repeat;
+	font-family:AugustaModern;
+	background-size: 100%;
+	
+}
+
+	
+}
