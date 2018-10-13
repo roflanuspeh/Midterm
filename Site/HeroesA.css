@@ -1,5 +1,11 @@
-body {
-    background-color: lightgray;
+body{
+	background:url(../Img/Al.jpg) no-repeat fixed;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+	font-family:AugustaModern;
+
 }
 .container {
     display: flex;
@@ -16,7 +22,7 @@ body {
     height: auto;
 
     text-align: justify;
-    color: black;
+    color: white;
     text-decoration: none;
 
     margin: 0;
@@ -47,6 +53,7 @@ img {
     padding: 0;
     margin: 10px;
     font-size: 2em;
+	color:white;
 }
 
 input {
