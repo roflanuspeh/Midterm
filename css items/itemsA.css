@@ -1,9 +1,5 @@
 body{
-	background:url(../Img/Al.jpg) no-repeat fixed;
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-size: cover;
-	background-attachment: fixed;
+	background-color:#122133;
 	font-family:AugustaModern;
 
 }
